@@ -1,0 +1,19 @@
+@charset 'utf-8';
+/*
+ Theme Name:   KidsCare
+ Theme URI:    http://kidscare.themerex.net/
+ Description:  KidsCare - Multipurpose and Multiskin Responsive Wordpress theme
+ Author:       ThemeREX
+ Author URI:   http://themerex.net
+ Template:     kidscare
+ Version:      1.0
+ Tags:         light, inheritable theme-options
+ Text Domain:  themerex
+*/
+
+
+@import url("../kidscare/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */

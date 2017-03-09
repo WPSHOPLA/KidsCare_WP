@@ -1,0 +1,66 @@
+/* Shortcode selector
+-----------------------------------------------------------------*/
+.sc_selector {
+	width: auto !important;
+	padding:2px !important;
+}
+
+
+/* Attachment folders
+-----------------------------------------------------------------*/
+.compat-attachment-fields .field .media_folder_selector {
+	max-height:200px;
+	overflow:auto;
+}
+
+
+/* Internal Colorpicker "More Colors" button
+-----------------------------------------------------------------*/
+.iColorPicker_moreColors {
+	display:inline-block;
+    width: 14px;
+    height: 14px;
+	margin-left:2px;
+    background: url(../images/colorpicker_morecolors.png);
+	vertical-align:middle;
+}
+
+
+/* Internal Colorpicker "More Colors" button
+-----------------------------------------------------------------*/
+.reviewBlock{ margin: 30px 0 10px 0; max-width:400px; overflow:visible; }
+.reviewBlock .ratBody{ padding: 15px 10px 15px 0;}
+.reviewBlock .ratBody + .ratBody{ border-top: 1px solid #ddd;}
+.reviewBlock .ratBody:after{ clear: both; display: block; height: 0; content: '';}
+.reviewBlock .accept{ text-align: center; padding: 10px 0 30px 0;}
+
+.reviewBlock .ratingItem{ position: relative; height: 16px; width: 80px;  float: right;  }
+.reviewBlock .ratingItem.ratingEdit{cursor: pointer;}
+.reviewBlock .ratingItem .ratBubble{ background: #fff; border: 1px solid #ddd; text-align: center; height: 25px; width: 50px; position: absolute; top: -40px; left: 100%; line-height: 25px; font-size: 12px; z-index: 3; margin: 0 0 0 -26px;  
+		opacity: 0;			
+		filter: alpha(opacity=0);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";	}
+.reviewBlock .ratingItem .ratBubble:after{ height: 10px; width: 10px; background: #fff; content: ''; display: block; margin: -5px 0 0 20px ; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd;
+	-webkit-transform: rotate(45deg) ;
+	   -moz-transform: rotate(45deg) ;
+	     -o-transform: rotate(45deg) ;
+	    -ms-transform: rotate(45deg) ;
+			transform: rotate(46deg) }
+.reviewBlock .ratingItem:hover .ratBubble{
+		opacity: 1;			
+		filter: alpha(opacity=100);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";	}
+
+.reviewBlock .ratingItem span{ width: 16px; height: 16px; display: inline-block; margin: 0; padding: 0;  font-size: 16px; vertical-align: top; } 
+.reviewBlock .ratingItem span:before{ font-family: "fontello"; width: 16px; height: 16px; display: block; line-height: 16px; text-align: center; }
+.reviewBlock .ratingItem .starDefault{ height: 16px; position: absolute; left: 0; top: 0; z-index: 1; width: 100%; }
+.reviewBlock .ratingItem .starDefault span:before{ content: '\e81e'; }
+
+.reviewBlock .ratingItem .starHover{ height: 16px; position: absolute; left: 0; top: 0; z-index: 2; overflow: hidden;  white-space:nowrap;  }
+.reviewBlock .ratingItem .starHover span:before{ content: '\e809'; }
+.reviewBlock .infoTotal{background: #eeeeee; padding: 10px; overflow:hidden; }
+.reviewBlock .infoTotal .infoRat{ display: none; }
+.reviewBlock .infoTotal .totalWrap:after{clear: both; height: 0; display: block; content: '';}
+.reviewBlock .infoTotal .totalWrap .totalRating{ width: 50%; height: 16px; line-height: 16px; padding: 0; text-align: center; vertical-align:top; border-right: 1px solid #ddd;}
+.reviewBlock .infoTotal .totalWrap .totalStar{ width: 50%; height: 16px; float: right;  padding: 0; vertical-align:top;}
+

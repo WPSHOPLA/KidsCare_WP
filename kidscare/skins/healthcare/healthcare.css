@@ -1,0 +1,132 @@
+@import "../kidscare/kidscare.css";
+
+/* HealthCare skin for the theme
+------------------------------------------------------------------------- */
+/* theme_skin_healthcare */
+
+/* Theme Accent Color
+------------------------------------------------------------------------- */
+
+/* WooCommerce colors */
+
+/* Theme Accent Color */
+
+.theme_accent,
+.bg_tint_light a,
+a:hover
+{ color: #e15e63; }
+
+/* Theme Accent2 Color */
+
+.theme_accent2
+.bg_tint_light a:hover
+{ color: #6fd3d7; }
+
+.theme_accent2_bgc,
+.twitBlock,
+.twitBlockWrap
+{ background-color: #6fd3d7; }
+
+.twitBlock .sc_slider .flex-direction-nav li
+{ background-color: #6fd3d7 !important; }
+
+.squareButton.huge > a, .squareButton.huge > span,
+.squareButton.banner > a, .squareButton.banner > span
+/*radius20*/{-webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px;}
+
+/* Other skin settings
+------------------------------------------------------------------------- */
+
+/* Top area */
+
+.topWrap .logo img { height: 40px; }
+.topWrap .logo img.logo_fixed { margin-top: -7px; }
+.topWrap .logo .logo_slogan { margin-top: 7px; }
+
+/* Footer
+------------------------------------------------------------------- */
+
+.theme_skin_healthcare .contactFooterWrap { padding-top: 35px; padding-bottom: 70px; }
+.theme_skin_healthcare .contactFooterWrap.footerStyleLight { background: #e77c80; color: #ffffff; }
+.theme_skin_healthcare .contactFooterWrap.footerStyleDark { background: #40a3b8; color: #ffffff; }
+.theme_skin_healthcare .contactFooter .logo{ padding-bottom: 20px; }
+
+.theme_skin_healthcare .toTheTopWrapper { margin-top: 30px; }
+.theme_skin_healthcare .toTheTopWrapper .scrollToTop { background: transparent url("../../images/healthcare-tothetop.png") no-repeat center center; width: 116px; height: 124px; display: block; margin: 0 auto; text-indent: -99999px; }
+
+/* Shortcodes
+------------------------------------------------------------------- */
+
+.theme_skin_healthcare .sc_title.sc_title_iconed { padding-bottom: 0.3em; }
+.theme_skin_healthcare .sc_title_icon.sc_title_top.sc_size_huge { margin-bottom: 20px; }
+
+
+.theme_skin_healthcare .sc_testimonials_style_2 .sc_testimonials_item_author,
+.theme_skin_healthcare .sc_testimonials_style_3 .sc_testimonials_item_author {margin-top: 25px;}
+
+/* Team */
+
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_position { color: #191d1e; }
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_info {
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.theme_skin_healthcare .sc_team .sc_team_item:hover .sc_team_item_info { background-color:transparent; padding-bottom:32px; }
+.theme_skin_healthcare .sc_team .sc_team_item:hover .sc_team_item_avatar { margin-top:-64px; }
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_position { font-weight:400; }
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_avatar:after {
+	margin: 0;
+	opacity: 0; -moz-opacity: 0; -khtml-opacity: 0; filter: alpha(opacity=0);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	background-color:#07b7c9;
+}
+.theme_skin_healthcare .sc_team .sc_team_item:hover .sc_team_item_avatar:after {
+	opacity: 0.7; -moz-opacity: 0.7; -khtml-opacity: 0.7; filter: alpha(opacity=70);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_avatar img {border-radius: 10px;}
+.theme_skin_healthcare .sc_team .sc_team_item:hover .sc_team_item_avatar img {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.theme_skin_healthcare .sc_team {margin-top: -65px;}
+.theme_skin_healthcare .sc_team .sc_team_item {padding-top: 65px;}
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_avatar {
+	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+	border-radius: 10px;
+}
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_avatar:before {
+	content:''; display:block; position:absolute; width:100%; height:100%; z-index: 3;
+	-webkit-box-shadow:inset 0 0 0 10px #c1edf1;
+	box-shadow:inset 0 0 0 10px #c1edf1;
+}
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_info .sc_team_item_title { font-family: 'Ubuntu', sans-serif; font-weight: 400; font-size: 20px; }
+.theme_skin_healthcare .sc_team .sc_team_item .sc_team_item_info .sc_team_item_position { font-family: 'Ubuntu', sans-serif; text-transform: uppercase; }
+
+.theme_skin_healthcare .twitBlock .sc_slider {  }
+.theme_skin_healthcare .twitBlock.main { height: 230px; }
+.theme_skin_healthcare .twitBlock.main .sc_slider  { height: 230px; }
+.theme_skin_healthcare .twitBlock.main .sc_slider ul,
+.theme_skin_healthcare .twitBlock.main .sc_slider ul li { height: 230px; }
+.theme_skin_healthcare .twitBlock.main .sc_slider .swiper-slide { padding: 75px 0; }
+.theme_skin_healthcare .twitBlock.main .sc_slider .flex-direction-nav li a.flex-prev:before,
+.theme_skin_healthcare .twitBlock.main .sc_slider .flex-direction-nav li a.flex-next:before { background-color: rgba(0, 0, 0, .1); }
+.theme_skin_healthcare .twitBlock.main .sc_slider .flex-direction-nav li a.flex-prev:hover:before,
+.theme_skin_healthcare .twitBlock.main .sc_slider .flex-direction-nav li a.flex-next:hover:before { background-color: rgba(0, 0, 0, .2); }
+
+/* Testimonials */
+
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_items { background-color: transparent; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_content { padding-top: 0; padding-bottom: 0; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_quote:before { display: none; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_quote .sc_testimonials_item_text { font-size: 18px; line-height: 28px; font-weight: 500; color: #ffffff; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_author { border: none; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_author .sc_testimonials_item_avatar { width: 75px; height: 75px; border: solid 5px #ffffff; position: relative; display: none; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_author .sc_testimonials_item_avatar:before { content: ''; display: block; position: absolute; top: -5px; left: -5px; width: 85px; height: 85px; border-radius: 50%; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_author .sc_testimonials_item_name { font-size: 35px; font-weight: 500; margin-top: 10px; color: #ffffff; text-align: center; margin-left: 0; }
+.theme_skin_healthcare .sc_testimonials_style_2.custom .sc_testimonials_item_author .sc_testimonials_item_position { font-size: 16px; margin-top: 10px; color: #ffffff; text-align: center; margin-left: 0; }

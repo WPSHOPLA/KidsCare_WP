@@ -1,0 +1,24 @@
+@import "../kidscare/kidscare.css";
+
+/* ToysStore skin for the theme
+------------------------------------------------------------------------- */
+/* theme_skin_toysstore */
+
+/* Theme Accent Color
+------------------------------------------------------------------------- */
+
+/* WooCommerce colors */
+
+/* Theme Accent Color */
+
+/* Other skin settings
+------------------------------------------------------------------------- */
+
+.theme_skin_toysstore .footerWrap.footerStyleLight {}
+.theme_skin_toysstore .footerWrap.footerStyleDark {}
+
+.theme_skin_toysstore .footerWrap.footerStyleLight.contactFooterWrap {background-image: none; background-color: #ffffff;}
+.theme_skin_toysstore .contactFooterWrap.footerStyleLight .contactAddress {color: #969899;}
+
+.theme_skin_toysstore .copyWrap .socPage {display: none;}
+.theme_skin_toysstore .copyWrap .copy .copyright {float: none; text-align: center;}

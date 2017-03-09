@@ -1,0 +1,62 @@
+/* Custom admin styles */
+.item_img {
+	position: relative;
+}
+
+.image_add_row {
+	clear: both;
+	margin-top:6px;
+}
+.menu-edit .auto_options_panel {
+	padding: 10px;
+	margin: 10px 10px 0 0;
+	display: none;
+	border: 1px solid #DFDFDF;
+}
+.auto_options_panel .post_types_list {
+	padding-top: 10px;
+}
+.auto_options_panel .post_types_list label {
+	margin: 0 8px 0 2px;
+}
+.submenu_type,
+.submenu_view {
+	margin-bottom: 10px;
+}
+.fontello_box {
+	position: fixed;
+	padding: 20px;
+	top: 150px;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	max-height: 450px;
+	overflow: auto;
+	background: #fff;
+	z-index: 999;
+	-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+	box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+	display: none;
+}
+.fontello_box ul {
+	overflow: hidden;
+}
+.fontello_box ul li {
+	font-size: 16px;
+	padding: 5px;
+	float: left;
+	cursor: pointer;
+}
+.icon_item_class {
+	color: #222;
+	font-size: 16px;
+}
+.sorting_label {
+	padding-top: 10px;
+	display: block;
+}
+.menu_cat_list {
+	padding: 10px 0;
+	display: block;
+}
